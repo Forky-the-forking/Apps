@@ -1,0 +1,162 @@
+
+.home {
+  width: 100%;
+  margin-top: 150px;
+}
+
+@media (max-width: 768px)
+{
+  .home {
+    margin-top: 0px;
+  }
+  #exchange
+  {
+    margin-top: 0px;
+  }
+  #exchange-smartphone
+  {margin-top: -200px;}
+}
+.ui.grid.home {
+  margin: 0 15px;
+  width: 100%;
+}
+
+.ui.segment.banner {
+  background: white;
+  color: black;
+  border: 1px solid black;
+  font-size: 15px;
+  font-weight: 500;
+
+  height: 60px;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ui.segment.header {
+  color: #a7a7a7;
+  background: inherit;
+  font-size: 14px;
+  font-weight: bold;
+
+  box-shadow: none;
+  border: 0;
+}
+
+.ui.segment.header.non-desktop {
+  display: none;
+}
+
+h1 {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 2.5rem;
+  margin-top: 500px;
+}
+@media screen and (max-width: 768px) {
+  .ui.segment.header.desktop {
+    display: none;
+  }
+
+  .ui.segment.header.non-desktop {
+    display: block;
+  }
+
+  .ui.grid .coin-market {
+    display: none !important;
+  }
+
+  .ui.segment.banner {
+    font-size: 12px;
+  }
+}
+
+
+/* COMPONENTS */
+.margin
+{
+  margin-top: 100px;
+}
+/*Serch BAR */
+
+.style-chooser .vs__search
+{
+  height: 60px;
+  background: black;
+  color: white;
+}
+.style-chooser .vs__dropdown-toggle
+{
+  border:none;
+  background-color: greenyellow;
+  padding-top: -20px;
+}
+
+.style-chooser .vs__search::placeholder
+{
+  text-indent: 20px;
+}
+
+.style-chooser .vs__clear,
+  .style-chooser .vs__open-indicator {
+    fill: #394066;
+  }
+
+/*Search icon bar*/
+.click
+{
+  cursor: pointer!important;
+}
+
+/*Espacement V-select*/
+.style-chooser
+{
+  margin: 200px 0px 50px 0px;
+}
+.ui.transparent.icon.input
+{
+  text-align: center;
+}
+.market-title
+{
+  font-size: 40px;
+  font-weight: lighter;text-shadow: 4px 2px 9px rgba(178,178,178,0.3);
+}
+
+#exchange
+{
+  margin-top: -150px;
+}
+
+
+@media (min-width: 575px)
+{
+  .style-chooser .vs__search
+  {
+    width: 500px;
+  }
+}
+
+ @media (max-width: 575px)
+{
+  .style-chooser .vs__search
+  {
+    width: 400px;
+  }
+} 
+ @media (max-width: 500px)
+{
+  .style-chooser .vs__search
+  {
+    width: 300px;
+  }
+} 
+@media (max-width: 400px)
+{
+ .style-chooser .vs__search
+ {
+   width: 230px;
+ }
+} 
