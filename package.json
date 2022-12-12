@@ -18,7 +18,7 @@
     "chart.js": "^2.9.3",
     "coingecko-api": "^1.0.10",
     "core-js": "^3.4.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "sass-loader": "^8.0.2",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-vue": "^0.10.1",
